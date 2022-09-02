@@ -1,0 +1,10 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: false
+    public: false
+
+
+  App\NasaApi\Application\NasaApiService: ~
+
+  App\NasaApi\Infrastructure\NasaApiClient: ~
